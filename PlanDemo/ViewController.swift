@@ -69,71 +69,18 @@ class ViewController: UIViewController {
     
     //按钮点击事件
     func btnAction(sender: UIButton) {
-        
+
         switch sender.tag - 100 {
         case 0:
             self.navigationController?.pushViewController(CategoryListViewController(), animated: true)
-        case 1:
-            self.navigationController?.pushViewController(HelpViewController(), animated: true)
-        case 2:
-            initSendMail()
-        case 3:
-            self.navigationController?.pushViewController(BmwinViewController(), animated: true)
-        case 4:
-            self.navigationController?.pushViewController(ProfileViewController(), animated: true)
         default:
             break
         }
         
     }
     
-    //调起邮件
-    func initSendMail() {
-        
-        if MFMailComposeViewController.canSendMail() {
-            
-            let picker = MFMailComposeViewController()
-            picker.mailComposeDelegate = self
-            
-            //设置主题
-            picker.setSubject("お悩み相談")
-            
-            //收件人
-            picker.setToRecipients(["info@bmwin.co.jp"])
-            
-            self.present(picker, animated: true, completion: nil)
-            
-        }
-        
-    }
-   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
 }
-
-extension ViewController: MFMailComposeViewControllerDelegate {
-    
-    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-        
-        self.dismiss(animated: true, completion: nil)
-        
-        switch result.rawValue {
-        case 0:
-            print("邮件已取消")
-        case 1:
-            print("邮件已保存")
-        case 2:
-            print("邮件已发送")
-        case 3:
-            print("邮件发送失败")
-        default:
-            print("邮件没有发送")
-            break
-        }
-        
-    }
-    
-}
-

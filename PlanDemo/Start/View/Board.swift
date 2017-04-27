@@ -14,13 +14,12 @@ enum DrawingState {
 
 class Board: UIImageView {
     
-    // UndoManager，用于实现 Undo 操作和维护图片栈的内存
     fileprivate class DBUndoManager {
-        class DBImageFault: UIImage {}  // 一个 Fault 对象，与 Core Data 中的 Fault 设计类似
+        class DBImageFault: UIImage {}
         
         fileprivate static let INVALID_INDEX = -1
-        fileprivate var images = [UIImage]()    // 图片栈
-        fileprivate var index = INVALID_INDEX   // 一个指针，指向 images 中的某一张图
+        fileprivate var images = [UIImage]()
+        fileprivate var index = INVALID_INDEX
         
         var canUndo: Bool {
             get {
@@ -67,13 +66,11 @@ class Board: UIImageView {
             var image: UIImage? = nil
             if self.canRedo {
                 image = images[index+1]
-                //                image = images[++index]
             }
             setNeedsCache()
             return image
         }
         
-        // MARK: - Cache
         
         fileprivate static let cahcesLength = 3 // 在内存中保存图片的张数，以 index 为中心点计算：cahcesLength * 2 + 1
         fileprivate func setNeedsCache() {

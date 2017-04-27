@@ -16,17 +16,11 @@
 		FC752D271E7A319C00ECE713 /* PlanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D261E7A319C00ECE713 /* PlanDemoTests.swift */; };
 		FC752D321E7A319C00ECE713 /* PlanDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D311E7A319C00ECE713 /* PlanDemoUITests.swift */; };
 		FC752D551E7A33C000ECE713 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D541E7A33C000ECE713 /* CategoryListViewController.swift */; };
-		FC752D5A1E7A508900ECE713 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D591E7A508900ECE713 /* HelpViewController.swift */; };
-		FC752D5C1E7A50F900ECE713 /* BmwinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D5B1E7A50F900ECE713 /* BmwinViewController.swift */; };
-		FC752D5E1E7A515100ECE713 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D5D1E7A515100ECE713 /* ProfileViewController.swift */; };
 		FC752D621E7A56B900ECE713 /* CategoryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D601E7A56B900ECE713 /* CategoryListTableViewCell.swift */; };
 		FC752D631E7A56B900ECE713 /* CategoryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC752D611E7A56B900ECE713 /* CategoryListTableViewCell.xib */; };
 		FC752D661E7A5FDB00ECE713 /* VolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D651E7A5FDB00ECE713 /* VolListViewController.swift */; };
 		FC752D691E7A62AF00ECE713 /* VolListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D671E7A62AF00ECE713 /* VolListTableViewCell.swift */; };
 		FC752D6A1E7A62AF00ECE713 /* VolListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC752D681E7A62AF00ECE713 /* VolListTableViewCell.xib */; };
-		FC752D6D1E7A7D2300ECE713 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D6C1E7A7D2300ECE713 /* VideoViewController.swift */; };
-		FC752D751E80C21900ECE713 /* HelpScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D741E80C21900ECE713 /* HelpScrollView.swift */; };
-		FC752D771E80C8AC00ECE713 /* ProfileScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D761E80C8AC00ECE713 /* ProfileScrollView.swift */; };
 		FC752D7B1E81149300ECE713 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D7A1E81149300ECE713 /* Board.swift */; };
 		FC752D7D1E81168B00ECE713 /* BaseBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D7C1E81168B00ECE713 /* BaseBrush.swift */; };
 		FC752D7F1E811A6200ECE713 /* DrawingBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D7E1E811A6200ECE713 /* DrawingBoardView.swift */; };
@@ -69,17 +63,11 @@
 		FC752D311E7A319C00ECE713 /* PlanDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDemoUITests.swift; sourceTree = "<group>"; };
 		FC752D331E7A319C00ECE713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC752D541E7A33C000ECE713 /* CategoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
-		FC752D591E7A508900ECE713 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
-		FC752D5B1E7A50F900ECE713 /* BmwinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BmwinViewController.swift; sourceTree = "<group>"; };
-		FC752D5D1E7A515100ECE713 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FC752D601E7A56B900ECE713 /* CategoryListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListTableViewCell.swift; sourceTree = "<group>"; };
 		FC752D611E7A56B900ECE713 /* CategoryListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListTableViewCell.xib; sourceTree = "<group>"; };
 		FC752D651E7A5FDB00ECE713 /* VolListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolListViewController.swift; sourceTree = "<group>"; };
 		FC752D671E7A62AF00ECE713 /* VolListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolListTableViewCell.swift; sourceTree = "<group>"; };
 		FC752D681E7A62AF00ECE713 /* VolListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolListTableViewCell.xib; sourceTree = "<group>"; };
-		FC752D6C1E7A7D2300ECE713 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
-		FC752D741E80C21900ECE713 /* HelpScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScrollView.swift; sourceTree = "<group>"; };
-		FC752D761E80C8AC00ECE713 /* ProfileScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScrollView.swift; sourceTree = "<group>"; };
 		FC752D7A1E81149300ECE713 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		FC752D7C1E81168B00ECE713 /* BaseBrush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBrush.swift; sourceTree = "<group>"; };
 		FC752D7E1E811A6200ECE713 /* DrawingBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingBoardView.swift; sourceTree = "<group>"; };
@@ -141,10 +129,6 @@
 				FC752D111E7A319B00ECE713 /* AppDelegate.swift */,
 				FC752D131E7A319B00ECE713 /* ViewController.swift */,
 				FC752D431E7A321D00ECE713 /* Start */,
-				FC752D401E7A321D00ECE713 /* Help */,
-				FC752D411E7A321D00ECE713 /* Mail */,
-				FC752D3F1E7A321D00ECE713 /* Bmwin */,
-				FC752D421E7A321D00ECE713 /* Profile */,
 				FC752D151E7A319B00ECE713 /* Main.storyboard */,
 				FC752D181E7A319B00ECE713 /* Assets.xcassets */,
 				FC752D1A1E7A319B00ECE713 /* LaunchScreen.storyboard */,
@@ -169,46 +153,6 @@
 				FC752D331E7A319C00ECE713 /* Info.plist */,
 			);
 			path = PlanDemoUITests;
-			sourceTree = "<group>";
-		};
-		FC752D3F1E7A321D00ECE713 /* Bmwin */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D4F1E7A32EC00ECE713 /* ViewController */,
-				FC752D4E1E7A32EC00ECE713 /* View */,
-				FC752D4D1E7A32EC00ECE713 /* Model */,
-			);
-			path = Bmwin;
-			sourceTree = "<group>";
-		};
-		FC752D401E7A321D00ECE713 /* Help */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D491E7A32D600ECE713 /* ViewController */,
-				FC752D481E7A32D600ECE713 /* View */,
-				FC752D471E7A32D600ECE713 /* Model */,
-			);
-			path = Help;
-			sourceTree = "<group>";
-		};
-		FC752D411E7A321D00ECE713 /* Mail */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D4C1E7A32E100ECE713 /* ViewController */,
-				FC752D4B1E7A32E100ECE713 /* View */,
-				FC752D4A1E7A32E100ECE713 /* Model */,
-			);
-			path = Mail;
-			sourceTree = "<group>";
-		};
-		FC752D421E7A321D00ECE713 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D521E7A32FA00ECE713 /* ViewController */,
-				FC752D511E7A32FA00ECE713 /* View */,
-				FC752D501E7A32FA00ECE713 /* Model */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		FC752D431E7A321D00ECE713 /* Start */ = {
@@ -249,98 +193,8 @@
 			children = (
 				FC752D541E7A33C000ECE713 /* CategoryListViewController.swift */,
 				FC752D651E7A5FDB00ECE713 /* VolListViewController.swift */,
-				FC752D6C1E7A7D2300ECE713 /* VideoViewController.swift */,
 				FC752D8E1E83A4B400ECE713 /* BoardViewController.swift */,
 				FC752D8F1E83A4B400ECE713 /* BoardViewController.xib */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FC752D471E7A32D600ECE713 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FC752D481E7A32D600ECE713 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D741E80C21900ECE713 /* HelpScrollView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FC752D491E7A32D600ECE713 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D591E7A508900ECE713 /* HelpViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FC752D4A1E7A32E100ECE713 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FC752D4B1E7A32E100ECE713 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FC752D4C1E7A32E100ECE713 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FC752D4D1E7A32EC00ECE713 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FC752D4E1E7A32EC00ECE713 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FC752D4F1E7A32EC00ECE713 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D5B1E7A50F900ECE713 /* BmwinViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FC752D501E7A32FA00ECE713 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FC752D511E7A32FA00ECE713 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D761E80C8AC00ECE713 /* ProfileScrollView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FC752D521E7A32FA00ECE713 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FC752D5D1E7A515100ECE713 /* ProfileViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -486,10 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC752D5E1E7A515100ECE713 /* ProfileViewController.swift in Sources */,
 				FC752D141E7A319B00ECE713 /* ViewController.swift in Sources */,
 				FC752D691E7A62AF00ECE713 /* VolListTableViewCell.swift in Sources */,
-				FC752D751E80C21900ECE713 /* HelpScrollView.swift in Sources */,
 				FC752D661E7A5FDB00ECE713 /* VolListViewController.swift in Sources */,
 				FC752D121E7A319B00ECE713 /* AppDelegate.swift in Sources */,
 				FC752D7B1E81149300ECE713 /* Board.swift in Sources */,
@@ -497,12 +349,8 @@
 				FC752D551E7A33C000ECE713 /* CategoryListViewController.swift in Sources */,
 				FC752D8D1E83A0BC00ECE713 /* EraserBrush.swift in Sources */,
 				FC752D621E7A56B900ECE713 /* CategoryListTableViewCell.swift in Sources */,
-				FC752D5C1E7A50F900ECE713 /* BmwinViewController.swift in Sources */,
 				FC752D8B1E836D9500ECE713 /* PencilBrush.swift in Sources */,
-				FC752D771E80C8AC00ECE713 /* ProfileScrollView.swift in Sources */,
 				FC752D7F1E811A6200ECE713 /* DrawingBoardView.swift in Sources */,
-				FC752D6D1E7A7D2300ECE713 /* VideoViewController.swift in Sources */,
-				FC752D5A1E7A508900ECE713 /* HelpViewController.swift in Sources */,
 				FC752D901E83A4B400ECE713 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

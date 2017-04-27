@@ -116,9 +116,7 @@ class BoardViewController: UIViewController {
             }
             
         } else if keyPath == "loadedTimeRanges" {
-            
-            //            let loadedTime = avalableDurationWithplayerItem()
-            //            print("当前加载进度\(loadedTime)")
+
             print("当前加载进度")
             
         }
