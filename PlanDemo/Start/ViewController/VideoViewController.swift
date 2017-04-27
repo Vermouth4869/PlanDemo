@@ -44,7 +44,7 @@ class VideoViewController: UIViewController {
     //初始化UI
     func createUI() {
         
-        containerV = UIView(frame: CGRect(x: 0, y: 64, width: self.view.frame.width, height: (self.view.frame.height - 64) / 2))
+        containerV = UIView(frame: CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: (self.view.frame.height - 64) / 2))
         containerV.backgroundColor = UIColor.black
         view.addSubview(containerV)
         
@@ -52,7 +52,7 @@ class VideoViewController: UIViewController {
         controllV.backgroundColor = UIColor(red: 0 / 255, green: 235 / 255, blue: 85 / 255, alpha: 0.2)
         containerV.addSubview(controllV)
         
-        playBtn = UIButton(frame: CGRect(x: 10.0, y: 5, width: 40, height: 40))
+        playBtn = UIButton(frame: CGRect(x: 10, y: 5, width: 30, height: 30))
         playBtn.setImage(UIImage(named: "player_pause"), for: .normal)
         playBtn.addTarget(self, action: #selector(playOrPauseBtnAction(sender:)), for: .touchUpInside)
         controllV.addSubview(playBtn)
@@ -91,7 +91,6 @@ class VideoViewController: UIViewController {
     func initPlayer() {
         
         let path = Bundle.main.path(forResource: "yinhun", ofType: ".mp4")
-//        let path = "https://www.youtube.com/watch?v=L2dKjnmWRkk"
         let url = NSURL.fileURL(withPath: path!)
         playerItem = AVPlayerItem(url: url)
         player = AVPlayer(playerItem: playerItem)
@@ -99,7 +98,7 @@ class VideoViewController: UIViewController {
         let layer = AVPlayerLayer(player: player)
         layer.frame = CGRect(x: 0,
                              y: 0,
-                             width: containerV.frame.width,
+                             width: UIScreen.main.bounds.width,
                              height: containerV.frame.height - 50)
         layer.videoGravity = AVLayerVideoGravityResizeAspect
         containerV.layer.addSublayer(layer)
