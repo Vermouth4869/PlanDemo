@@ -42,7 +42,7 @@ class BoardViewController: UIViewController {
     //初始化播放器
     func initPlayer() {
         
-        let path = Bundle.main.path(forResource: "yinhun", ofType: ".mp4")
+        let path = Bundle.main.path(forResource: "vedio", ofType: ".mp4")
         //        let path = "https://www.youtube.com/watch?v=L2dKjnmWRkk"
         let url = NSURL.fileURL(withPath: path!)
         playerItem = AVPlayerItem(url: url)

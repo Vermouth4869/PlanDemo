@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC24CECA1EB1B710002F599C /* yinhun.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC24CEC91EB1B710002F599C /* yinhun.mp4 */; };
+		FC24CECA1EB1B710002F599C /* vedio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC24CEC91EB1B710002F599C /* vedio.mp4 */; };
 		FC752D121E7A319B00ECE713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D111E7A319B00ECE713 /* AppDelegate.swift */; };
 		FC752D141E7A319B00ECE713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC752D131E7A319B00ECE713 /* ViewController.swift */; };
 		FC752D171E7A319B00ECE713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC752D151E7A319B00ECE713 /* Main.storyboard */; };
@@ -48,7 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC24CEC91EB1B710002F599C /* yinhun.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yinhun.mp4; sourceTree = "<group>"; };
+		FC24CEC91EB1B710002F599C /* vedio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedio.mp4; sourceTree = "<group>"; };
 		FC752D0E1E7A319B00ECE713 /* PlanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC752D111E7A319B00ECE713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC752D131E7A319B00ECE713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		FC752D101E7A319B00ECE713 /* PlanDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FC24CEC91EB1B710002F599C /* yinhun.mp4 */,
+				FC24CEC91EB1B710002F599C /* vedio.mp4 */,
 				FC752D111E7A319B00ECE713 /* AppDelegate.swift */,
 				FC752D131E7A319B00ECE713 /* ViewController.swift */,
 				FC752D431E7A321D00ECE713 /* Start */,
@@ -310,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC752D1C1E7A319B00ECE713 /* LaunchScreen.storyboard in Resources */,
-				FC24CECA1EB1B710002F599C /* yinhun.mp4 in Resources */,
+				FC24CECA1EB1B710002F599C /* vedio.mp4 in Resources */,
 				FC752D191E7A319B00ECE713 /* Assets.xcassets in Resources */,
 				FC752D6A1E7A62AF00ECE713 /* VolListTableViewCell.xib in Resources */,
 				FC752D171E7A319B00ECE713 /* Main.storyboard in Resources */,
